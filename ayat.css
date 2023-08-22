@@ -1,0 +1,61 @@
+
+.highlight {
+    background-color:#fff4ca ;
+}
+
+
+body {
+    font-family: "Scheherazade", serif; /* Use a suitable Arabic font */
+    color: #333; /* Dark text color */
+    background-color: #f5f5dc; /* Light background color */
+}
+
+img{
+    height: 500px;
+} 
+
+
+.audio-container {
+    text-align: center;
+    background-color: #f5f5dc; /* Background color */
+    padding: 20px; /* Adding padding for spacing */
+}
+
+/* Style for the audio player */
+audio {
+    
+    width: 100%; /* Make the audio player take up the full width of the container */
+    max-width: 400px; /* Set a maximum width to control the size */
+}
+
+    
+.container {
+    margin-top: 3rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.container h1 {
+    color: #82A386; /* Rose header color */
+    margin-bottom: 1.5rem;
+}
+
+#original-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #82A386; /* Rose button color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 180px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #628060; /* Darker rose on hover */
+}
